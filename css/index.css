@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+html, body, #box {
+  width: 100%;
+  height: 100%;
+  font-size: 0.32rem; }
+
+header, .main {
+  position: relative; }
+
+header #turn, header #search, .main section {
+  position: absolute; }
+
+.on i {
+  color: #5d4981; }
+.on b {
+  font-size: 0.28rem;
+  color: #5d4981; }
+
+/*-----------------quanju---------------------------------
+***********************************************************
+***********************************************************
+***********************************************************
+*/
+#box {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 0.88rem;
+  line-height: 0.88rem;
+  background: #fff; }
+  header h4 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #3f176c; }
+  header #turn {
+    top: 0;
+    left: 0.56rem;
+    color: #3f176c;
+    display: none; }
+  header #search {
+    top: 0;
+    right: 0.56rem;
+    color: #3f176c; }
+
+/*-----------------main---------------------------------
+***********************************************************
+***********************************************************
+***********************************************************
+*/
+.main {
+  overflow: hidden;
+  width: 100%;
+  -webkit-flex: 1;
+  background: #f5f5f5;
+  	/*-----------------section---------------------------------
+  ***********************************************************
+  ***********************************************************
+  ************************write***********************************
+  */
+  		/*-----------------section---------------------------------
+  ***********************************************************
+  ***********************************************************
+  ************************write***********************************
+  */ }
+  .main section {
+    width: 100%;
+    height: 100%;
+    display: none; }
+  .main #home {
+    display: block;
+    /* 	  */ }
+    .main #home .homes {
+      width: 100%;
+      height: 100%;
+      overflow-y: scroll; }
+      .main #home .homes .homes-banner {
+        width: 100%;
+        height: 3.37rem; }
+        .main #home .homes .homes-banner img {
+          width: 100%;
+          height: 100%; }
+      .main #home .homes .homes-tu {
+        width: 100%;
+        height: 1.91rem;
+        display: flex;
+        padding-left: 0.35rem;
+        background: #fff; }
+        .main #home .homes .homes-tu dl {
+          height: 1.91rem;
+          -webkit-flex: 1;
+          text-align: center;
+          margin-right: 0.33rem; }
+          .main #home .homes .homes-tu dl dt {
+            width: 1.03rem;
+            height: 0.94rem;
+            margin-top: 0.32rem; }
+            .main #home .homes .homes-tu dl dt img {
+              width: 100%;
+              height: 100%; }
+          .main #home .homes .homes-tu dl dd {
+            width: 100%;
+            height: 0.62rem;
+            margin-top: 0.19rem; }
+            .main #home .homes .homes-tu dl dd a {
+              font-size: 0.22rem;
+              color: #000; }
+      .main #home .homes .homes-cen {
+        width: 100%;
+        height: 3.7rem;
+        background: #fff;
+        margin-top: 0.2rem;
+        overflow-x: hidden; }
+        .main #home .homes .homes-cen h3 {
+          width: 95%;
+          height: 0.62rem;
+          color: #65317b;
+          font-size: 0.28rem;
+          background: url(../images/2_19.jpg) no-repeat;
+          background-size: 7.5% 80%;
+          background-position: 0 0.08rem;
+          margin-left: 0.12rem;
+          padding-left: 0.55rem;
+          line-height: 0.65rem; }
+        .main #home .homes .homes-cen .homes-cen-t {
+          width: 100%;
+          height: 2.75rem;
+          display: flex;
+          margin-top: 0.2rem;
+          -webkit-transition: transform 2s ease-in-out; }
+          .main #home .homes .homes-cen .homes-cen-t dl {
+            -webkit-felx: 1;
+            margin-left: 0.2rem; }
+            .main #home .homes .homes-cen .homes-cen-t dl dt {
+              width: 2.69rem;
+              height: 1.88rem; }
+              .main #home .homes .homes-cen .homes-cen-t dl dt img {
+                width: 100%;
+                height: 100%; }
+            .main #home .homes .homes-cen .homes-cen-t dl dd {
+              width: 2.5rem;
+              font-size: 0.23rem;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              margin-top: 0.16rem; }
+    .main #home .homes-btm {
+      width: 100%;
+      background: #fff;
+      margin-top: 0.16rem; }
+      .main #home .homes-btm #p1 {
+        width: 100%;
+        height: 0.83rem;
+        display: flex;
+        border-bottom: 1px solid #ccc; }
+        .main #home .homes-btm #p1 a {
+          -webkit-flex: 1;
+          color: #000;
+          text-align: center;
+          line-height: 0.83rem; }
+        .main #home .homes-btm #p1 a:last-child {
+          margin-right: 0.2rem; }
+      .main #home .homes-btm .homes-btm-as {
+        color: #5f2e87;
+        border-bottom: 1px solid #5f2e87; }
+      .main #home .homes-btm .homes-bom {
+        width: 100%;
+        height: 0.46rem;
+        display: flex;
+        margin-top: 0.18rem; }
+        .main #home .homes-btm .homes-bom h3 {
+          font-size: 0.27rem;
+          margin-left: 0.29rem; }
+        .main #home .homes-btm .homes-bom a {
+          width: 0.55rem;
+          height: 0.33rem;
+          text-align: center;
+          border-radius: 0.15rem;
+          font-size: 0.16rem;
+          color: #fb7fb1;
+          border: 1px solid #fb7fb1;
+          margin-left: 0.17rem;
+          line-height: 0.33rem; }
+        .main #home .homes-btm .homes-bom a:last-child {
+          width: 0.74rem;
+          border-color: #c19cc7;
+          color: #c19cc7; }
+      .main #home .homes-btm p {
+        padding-left: 0.29rem;
+        margin-top: 0.08rem; }
+        .main #home .homes-btm p i {
+          color: #675973; }
+        .main #home .homes-btm p small {
+          font-size: 0.24rem;
+          margin-left: 0.11rem; }
+      .main #home .homes-btm img {
+        width: 100%;
+        height: 3.93rem;
+        margin-top: 0.22rem; }
+
+	/*-----------------footer---------------------------------
+***********************************************************
+***********************************************************
+***********************************************************
+*/
+footer {
+  padding-top: 0.1rem;
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  background: #fff;
+  border-top: 2px solid #efefef; }
+  footer i {
+    color: #302e33;
+    font-size: 0.4rem; }
+  footer span {
+    -webkit-flex: 1;
+    text-align: center;
+    line-height: 0.4rem;
+    color: #797979;
+    width: 18%; }
+    footer span b {
+      font-style: normal;
+      font-size: 0.22rem;
+      color: #9f9a97;
+      font-weight: 100; }
+
+/*# sourceMappingURL=index.css.map */

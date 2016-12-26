@@ -1,0 +1,77 @@
+{
+		"shouye":{	
+				"homes_banner":[
+					{
+						"img":"images/1_02.jpg"
+					}
+				],
+				"homes_tu":[
+					{   "img":"images/2_03.jpg",
+						"title":"乐园"
+					},
+					{
+						"img":"images/2_05.jpg",
+						"title":"演出"
+					},
+					{
+						"img":"images/2_07.jpg",
+						"title":"酒店"
+					},
+					{
+						"img":"images/2_09.jpg",
+						"title":"美食"
+					},
+					{
+						"img":"images/2_11.jpg",
+						"title":"促销"
+					}					
+				],
+				"homes_cen_t":[
+					{
+						"img":"images/3_03.jpg",
+						"title":"珠海长隆企鹅酒店 2天1晚双人双园游-马戏加表演"
+					},
+					{
+						"img":"images/3_03.jpg",
+						"title":"广州长隆酒店自助餐 平日成人"
+					},
+					{
+						"img":"images/3_03.jpg",
+						"title":"广州长隆酒店自助餐 平日成人"
+					}
+				],
+				"homes_btm":[
+					{
+						"img":"images/4_02.jpg",
+						"title":"珠海长隆海洋王国",
+						"txt":"主题",
+						"txt2":"乐园",
+						"tle":"珠海市横琴新区富祥弯"
+					},
+					{
+						"img":"images/4_04.jpg",
+						"title":"珠海长隆大马戏",
+						"txt":"5A",
+						"txt2":"演出",
+						"tle":"珠海市横琴新区富祥弯"
+					},
+					{
+						"img":"images/3_02.jpg",
+						"title":"珠海长隆海洋王国",
+						"txt":"主题",
+						"txt2":"乐园",
+						"tle":"珠海市横琴新区富祥弯"
+					},
+					{
+						"img":"images/3_04.jpg",
+						"title":"珠海长隆海洋王国",
+						"txt":"主题",
+						"txt2":"乐园",
+						"tle":"珠海市横琴新区富祥弯"
+					}
+				]		
+			}
+	}
+
+
+
